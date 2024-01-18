@@ -1,0 +1,114 @@
+.container {
+  width: 100%;
+  max-width: 1146px;
+  margin: 0 auto;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 51px;
+}
+textarea {
+  width: 100%;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  padding: 23px 0 259px 21px;
+}
+.textarea {
+  width: 756px;
+}
+input {
+  width: 100%;
+  padding: 21px 0 22px 19px;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+}
+.input-box {
+  width: 360px;
+}
+::placeholder {
+  color: #99999a;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+input[type="text"] {
+  margin-bottom: 20px;
+}
+input[type="submit"] {
+  margin-top: 25px;
+  background-color: #5968f4;
+  color: #fbfbff;
+  border: none;
+}
+h5 {
+  color: #5863e3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 7px;
+  margin-top: 57px;
+}
+h1 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 57px;
+}
+h3 {
+  color: #4e4d54;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+a {
+  color: #99999a;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.circle-container {
+  background-color: #5968f4;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 16px;
+}
+.circle-container img{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.clicked-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 74px;
+}
+.email-box, .phone-box, .adress-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first{
+    margin-bottom: 8px;
+}
